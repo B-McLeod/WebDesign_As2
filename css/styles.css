@@ -1,0 +1,102 @@
+/* Main Elements */
+* {
+	font-family: 'Roboto', sans-serif;
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+html, body {
+	background: #212121;
+	background-image: url(/assets/images/stressed_linen.png);
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+html, body, div, ol, ul, li, section {
+	padding: 0;
+}
+body {
+	padding-top: 50px;
+	padding-bottom: 65px;
+	overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: orange;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+p {
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+}
+footer {
+    position: absolute;
+    min-width: 100%;
+    bottom: 0;
+    height: 50px;
+    padding: 0;
+    margin-bottom: 0;
+    overflow-y: hidden;
+    border-radius: 0;
+}
+#txtFooter {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* START LANDING PAGE */
+
+/* END LANDING PAGE */
+
+/* START CONTACT PAGE */
+.jumbotron, .jumbotron>.container-fluid {
+	padding: 0;
+}
+#contactDetails {
+	width: 100%;
+}
+#contactDetails div {
+	display: inline-block;
+}
+#pic {
+	max-width: 100%;
+	height: auto;
+}
+#map {
+	margin-left: 40px;
+}
+#info {
+	width: 50%;
+	height: 40%;
+}
+#info ul, #hours ul {
+	color: white;
+	padding-left: 15px;
+	list-style: none;
+}
+#hours {
+	width: 49%;
+	position: relative;
+	top: -24px;
+}
+#hours ul li {
+	padding-bottom: 5px;
+}
+form * {
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	text-align: left;
+	color: black;
+}
+form label {
+	color: orange;
+}
+/* END CONTACT PAGE */
+
+table {
+	color: white;
+}
+tr:hover {
+	background: rgba(255, 255, 255, 0.1);
+}

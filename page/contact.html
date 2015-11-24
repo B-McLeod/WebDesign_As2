@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Metadata -->
+	<meta name="keywords" content="Photography, Wedding, Bridal, Landscape, Portrait, Family, Studio, Workshops, Local, Cheap, Professional" />
+	<meta name="description" content="Your local photography studio and photography lessons" />
+	<meta charset="UTF-8" />
+	<meta name="author" content="Blake McLeod" />
+
+	<title>Dynamic Photography</title>
+	<link rel="icon" href="../assets/images/favicon.ico" type="image/ico" sizes="16x16" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/fonts.css" />
+	<link rel="stylesheet" href="../css/styles.css" />
+	
+	
+</head>
+
+
+<body>
+	<!-- HEADER -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="../index.html">Dynamic Photography</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../page/weddings.html">Weddings</a></li>
+					<li><a href="../page/portraits.html">Portraits</a></li>
+					<li><a href="../page/landscapes.html">Landscapes</a></li>
+					<li><a href="../page/workshops.html">Workshops</a></li>
+					<li><a href="../page/about.html">About</a></li>
+					<li class="active"><a href="../page/contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	
+	<!-- CONTENT -->
+	<section>
+	<div class="jumbotron">
+		<div class="container-fluid">
+			<!-- Image from Google Image Search (Modern Office) -->
+			<img id="pic" src="../assets/images/other/studio2.jpg" alt="The Dynamic Photography Studio" />
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div id="map" class="col-md-4">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.8978757218947!2d153.43163099999998!3d-28.027597000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9104fdb7fe55d5%3A0x7f4f24456d008897!2s10%2F20+Queensland+Ave%2C+Broadbeach+QLD+4218!5e0!3m2!1sen!2sau!4v1432556212138" width="95%" height="400" frameborder="0" style="border:0"></iframe>
+			</div>
+			<div id="details" class="col-md-4">
+				<h2>Contact</h2>
+				
+				<p>Our photography studio is located in the heart of Broadbeach, overlooking beautiful beach views whilst embedded in the glorious hustle and bustle of the Gold Coast. We are located within the Sun building on the corner of Queensland Avenue and Surf Parade.</p>
+				
+				<p>Parking is available on-street and in the basement, please let me know if you wish to park undercover as a keycode will be required. If you have any enquiries at all, please don't hesitate to contact me using the contact form.</p>
+
+				<div id="contactDetails">
+					<div id="info">
+						<h5>Details</h5>
+						<ul>
+							<li>Thomas Parker - Owner</li>
+							<li>10/20 Queensland Ave, Broadbeach
+								<br />QLD 4218</li>
+							<br />
+							<li>(07)55 123 456</li>
+							<li>T.Parker@Dynamic-Photo.com.au</li>
+						</ul>
+					</div>
+					<div id="hours">
+						<h5>Hours</h5>
+						<ul>
+							<li>Mon - Thur: 09:00 - 17:00</li>
+							<li>Fri: 09:00 - 12:00</li>
+							<li>Sat: 08:00 - 12:00</li>
+							<li>Sun: Closed</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">				
+				<form class="form-horizontal">
+					<div id="frmName" class="form-group">
+						<label for="name" class="col-sm-3 control-label">Name</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="name" placeholder="Name" aria-describedby="inputError2Status">
+							<div id="nameIcon">
+							</div>
+						</div>
+					</div>
+					<div id="frmPhone" class="form-group">
+						<label for="phone" class="col-sm-3 control-label">Phone</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="phone" placeholder="Phone">
+							<div id="phoneIcon">
+							</div>
+						</div>
+					</div>
+					<div id="frmEmail" class="form-group">
+						<label for="email" class="col-sm-3 control-label">Email</label>
+						<div class="col-sm-9">
+							<input type="email" class="form-control" id="email" placeholder="Email">
+							<div id="emailIcon">
+							</div>
+						</div>
+					</div>
+					<div id="frmSubject" class="form-group">
+						<label for="subject" class="col-sm-3 control-label">Subject</label>
+						<div class="col-sm-9">
+							<select class="form-control" id="subject">
+								<option disabled selected>Select subject</option>
+								<option>Wedding Photography</option>
+								<option>Portrait Photography</option>
+								<option>Landscape Photography</option>
+								<option>Workshops</option>
+								<option>Other</option>
+							</select>
+						</div>
+					</div>
+					<div id="frmDescription" class="form-group">
+						<label for="description" class="col-sm-3 control-label">Description</label>
+						<div class="col-sm-9">
+							<textarea class="form-control" rows="3" id="description" placeholder="Description"></textarea>
+							<div id="descIcon">
+							</div>
+						</div>
+					</div>
+
+					<button type="button" class="btn btn-primary pull-right" onclick="contactValidation()">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+	
+	<!-- FOOTER -->
+	<footer>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<p id="txtFooter" class="navbar-text navbar-right">&copy; Dynamic Photography Pty Ltd 2015</p>
+			</div>
+		</nav>
+	</footer>
+	
+	<!-- BOOTSTRAP SCRIPT FILES (Placed at end of document to speed up page load time) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="../js/scripts.js"></script>
+</body>
+
+</html>
